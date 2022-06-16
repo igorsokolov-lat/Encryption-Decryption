@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="Encryption-Decryption.Encryption-Decryption-task-build-classes-java.main" target="11" />
+      <module name="Encryption-Decryption.Encryption-Decryption-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Encryption-Decryption.Encryption-Decryption-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="Encryption-Decryption.Encryption-Decryption-task-build-reports-tests.main" target="11" />
+      <module name="Encryption-Decryption.Encryption-Decryption-task-build-test-results.main" target="11" />
+      <module name="Encryption-Decryption.Encryption-Decryption-task-build-tmp.main" target="11" />
+      <module name="Encryption-Decryption.Encryption-Decryption-task.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Abstract_class-About_abstract_classes.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Abstract_class-An_incorrect_statement.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Abstract_class-Incorrect_declaration.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Abstract_class-Shape_hierarchy.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Abstract_class-Theory.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Abstract_class-Users_and_WebSites.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Abstract_class-Which_methods_must_be_overridden.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Encapsulating_object_creation-About_factories.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Encapsulating_object_creation-Clock_factory.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Encapsulating_object_creation-Factories.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Encapsulating_object_creation-How_we_use_factories.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Encapsulating_object_creation-Motor_static_factory.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Encapsulating_object_creation-Theory.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Factory_method-Clocks.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Factory_method-Laptop_store.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Factory_method-Motors.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Factory_method-Robot.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Factory_method-Robot_factory.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Factory_method-Theory.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Files-Are_siblings.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Files-Theory.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Files-Сorrect_statements.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Polymorphism-Find_mistake.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Polymorphism-Notification.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Polymorphism-Publication_and_its_subclasses.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Polymorphism-Theory.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Template_method-Build_a_house.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Template_method-Career.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Template_method-New_customer.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Template_method-Social_networks.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Template_method-Template_Method.main" target="11" />
+      <module name="Encryption-Decryption.Topics-Template_method-Theory.main" target="11" />
+      <module name="Encryption-Decryption.util.main" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

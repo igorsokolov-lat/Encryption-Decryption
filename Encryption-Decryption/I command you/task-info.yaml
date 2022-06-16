@@ -1,0 +1,123 @@
+type: edu
+custom_name: stage4
+files:
+- name: src/encryptdecrypt/Main.java
+  visible: true
+  text: |
+    package encryptdecrypt;
+
+    import java.util.List;
+    import java.util.Scanner;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            String operation = scanner.nextLine();
+            StringBuilder message = new StringBuilder(scanner.nextLine());
+            int key = scanner.nextInt();
+            switch (operation) {
+                case ("enc"):
+                    encryption(key, message);
+                    break;
+                case ("dec"):
+                    decryption(key, message);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        public static void encryption(int key, StringBuilder message) {
+            for (int i = 0; i < message.length(); i++) {
+                char letter = message.charAt(i);
+                int uniCode = letter + key;
+                char newLetter = (char) uniCode;
+                message.setCharAt(i, newLetter);
+            }
+            System.out.println(message);
+        }
+
+        public static void decryption(int key, StringBuilder message) {
+            for (int i = 0; i < message.length(); i++) {
+                char letter = message.charAt(i);
+                int uniCode = letter - key;
+                char newLetter = (char) uniCode;
+                message.setCharAt(i, newLetter);
+            }
+            System.out.println(message);
+        }
+    }
+  learner_created: false
+- name: test/EncryptDecryptTest.java
+  visible: false
+  text: |
+    import org.hyperskill.hstest.stage.StageTest;
+    import org.hyperskill.hstest.testcase.CheckResult;
+    import org.hyperskill.hstest.testcase.TestCase;
+
+    import java.util.List;
+
+    public class EncryptDecryptTest extends StageTest<String> {
+
+        @Override
+        public List<TestCase<String>> generate() {
+            return List.of(
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "enc",
+                        "-key", "5",
+                        "-data", "Welcome to hyperskill!"
+                    )
+                    .setAttach("\\jqhtrj%yt%m~ujwxpnqq&"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-key", "0",
+                        "-mode", "enc",
+                        "-data", "Hello"
+                    )
+                    .setAttach("Hello"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-key", "1",
+                        "-data", "012345678",
+                        "-mode", "enc"
+                    )
+                    .setAttach("123456789"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-data", "\\jqhtrj%yt%m~ujwxpnqq&",
+                        "-key", "5"
+                    )
+                    .setAttach("Welcome to hyperskill!"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-key", "0",
+                        "-data", "Hi"
+                    )
+                    .setAttach("Hi"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-key", "1",
+                        "-data", "222233334444"
+                    )
+                    .setAttach("111122223333")
+            );
+        }
+
+        @Override
+        public CheckResult check(String reply, String clue) {
+            return new CheckResult(reply.trim().equals(clue.trim()));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5390#comment
+status: Solved
+record: 4
